@@ -19,13 +19,13 @@ Follow these steps to perform a rolling update of a Kubernetes Deployment:
 1. **Clone this Repository**
 
    ```bash
-   git clone https://github.com/yourusername/kubernetes-rolling-update-deployment.git
+   git clone https://github.com/lamxuanthinh/KUBERNETES-ZERO-DOWNTIME.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd kubernetes-rolling-update-deployment
+   cd KUBERNETES-ZERO-DOWNTIME
    ```
 
 3. **Edit the Deployment YAML**
@@ -37,7 +37,7 @@ Follow these steps to perform a rolling update of a Kubernetes Deployment:
    Apply the updated Deployment to your Kubernetes cluster using the `kubectl` command:
 
    ```bash
-   kubectl apply -f deployment.yaml
+   kubectl apply -f rollingupdate.yml
    ```
 
 5. **Monitor the Rolling Update**
@@ -53,10 +53,6 @@ Follow these steps to perform a rolling update of a Kubernetes Deployment:
 6. **Verify the Application**
 
    Once the update is complete, make sure to verify that your application is running as expected. Test your application and ensure there are no issues.
-
-## Contributing
-
-We welcome contributions from the community. If you have any improvements, bug fixes, or new features to suggest, please open an issue or submit a pull request. See our [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
 ## License
 
